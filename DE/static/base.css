@@ -1,0 +1,170 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background-image: url("1.jpg");
+  background-size: cover;
+}
+.navbar-brand {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.h1tag {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.frm {
+  width: 100%;
+  height: 50%;
+}
+.frm h3 {
+  padding-top: 50px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+input {
+  width: 300px;
+}
+
+.Contact-Form {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+.Contact-Form h2 {
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.Contact-Form p {
+  color: #9999b9;
+  margin-bottom: 50px;
+}
+.input-fields {
+  width: 45%;
+  float: left;
+  overflow: hidden;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+.input-fields input {
+  width: 354px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  /* border: 2px; */
+  border-radius: 3px;
+}
+.msg {
+  width: 45%;
+  overflow: hidden;
+  margin-top: 70px;
+}
+.msg textarea {
+  width: 354px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  height: 160px;
+  border: 2px solid black;
+  border-radius: 3px;
+  resize: none;
+}
+.Contact-Form button {
+  padding: 15px 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 1px solid green;
+  background: gray;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-right: 40px;
+  margin-top: 15px;
+}
+.Contact-Form button:hover {
+  border: 1px solid black;
+  background: none;
+  color: black;
+}
+.details {
+  width: 300px;
+  height: 150px;
+  color: black;
+  /* background: white; */
+  padding: 10px;
+  float: left;
+  overflow: hidden;
+  margin-right: 160px;
+  /* margin-top: 50px; */
+  border-radius: 3px;
+  margin-bottom: 50px;
+}
+.details:last-child {
+  margin-right: 0;
+}
+.details h3 {
+  padding-top: 60px;
+  font-size: 16px;
+  color: black;
+  font-style: normal;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: left;
+}
+.details p {
+  font-size: 13px;
+  font-family: Arial;
+  color: black;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  text-transform: capitalize;
+  margin-left: 10px;
+  margin-bottom: 2px;
+}
+#home {
+  font-family: "Dosis", sans-serif;
+}
+/* .newclass h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  width: 100%;
+
+  font-size: smaller;
+} */
+/* .newclass {
+  display: inline-flex;
+  padding: 55px;
+  
+} */
+.booktitle {
+  float: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  width: 20%;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.bookimage {
+  padding: 55px;
+  float: right;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  width: 50%;
+  height: 20px;
+}
+.btn66 {
+  font-size: large;
+  border: 2px black solid;
+  width: 10%;
+  margin-left: 5%;
+}
+.btn66:hover {
+  font-size: larger;
+}
+.h2div {
+  font-family: "Times New Roman", Times, serif;
+}

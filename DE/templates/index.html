@@ -1,0 +1,19 @@
+{% extends "base.html"%} {%block content%}
+<div class="newclass">
+  <div class="box">
+    {% for i in range(0,5) %}
+
+    <div class="booktitle">
+      <h3>{{data[i][0]['title']}}</h3>
+      <br />
+    </div>
+    <div class="bookimage"></div>
+    <img src="{{data[i][0]['img']}}" alt="" />
+
+    <button class="btn66">Rent</button>
+
+    {%endfor%}
+  </div>
+</div>
+
+{%endblock content%}
